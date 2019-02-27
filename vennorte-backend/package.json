@@ -1,0 +1,19 @@
+{
+  "name": "vennorte-backend",
+  "version": "1.0.0",
+  "description": "app backend para el sistema de citas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Miguel Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "multiparty": "^4.2.1",
+    "nodemon": "^1.18.10"
+  }
+}
